@@ -9,10 +9,12 @@ namespace FairyGuiDemo
     public class LinkWindow : Window
     {
         GList LinkList;
-
+        GTextField scoreText;
+        
         GButton firstClick = new GButton();
         GButton secondClick = new GButton();
         bool isFirstClicked = true; // 判断玩家是否第一次点击
+        double currentScore;
 
         public LinkWindow()
         {
@@ -27,8 +29,14 @@ namespace FairyGuiDemo
 
             LinkList = this.contentPane.GetChild("list").asList;
             LinkList.itemRenderer = RenderListItem;
-            LinkList.numItems = 20; //必须是10的倍数且大于等于20，才会使得游戏逻辑没漏洞
+            LinkList.numItems = 40; //必须是能被20整除的数字，才会使得游戏逻辑没漏洞
             LinkList.onClickItem.Add(OnLinkListClicked);
+                       
+            scoreText = this.contentPane.GetChild("score_txt").asTextField;
+            currentScore = 0;
+            scoreText.SetVar("score", currentScore.ToString()).FlushVars();
+           
+            this.AddEventListener(EventCmd.ScoreOne, PlusScore);
         }
 
         void RenderListItem(int index, GObject obj)
@@ -60,6 +68,7 @@ namespace FairyGuiDemo
             {
                 firstClick.visible = false;
                 secondClick.visible = false;
+                this.DispatchEvent(EventCmd.ScoreOne);
             }
             bool isfinish = IsFinishGame();
             if (isfinish)
@@ -80,6 +89,12 @@ namespace FairyGuiDemo
                     return false;
             }
             return true;
+        }
+
+        void PlusScore()
+        {
+            currentScore++;
+            scoreText.SetVar("score", currentScore.ToString()).FlushVars();
         }
     }
 

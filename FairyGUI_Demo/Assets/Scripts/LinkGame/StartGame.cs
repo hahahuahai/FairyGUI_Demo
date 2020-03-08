@@ -15,6 +15,7 @@ namespace FairyGuiDemo
             PackageManager.inst.AddAllPackages();
             EventManager.inst.Init();
             WindowManager.inst.AddAllWindow();
+
             var startwindow = WindowManager.inst.GetWindowByName("StartWindow");
             startwindow.Show();
         }

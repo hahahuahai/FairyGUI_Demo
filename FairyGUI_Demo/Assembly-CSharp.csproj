@@ -270,8 +270,8 @@
     <Compile Include="Assets\Scripts\Core\WindowManager.cs" />
     <Compile Include="Assets\Scripts\LinkGame\FinishWindow.cs" />
     <Compile Include="Assets\Scripts\LinkGame\LinkWindow.cs" />
+    <Compile Include="Assets\Scripts\LinkGame\StartGame.cs" />
     <Compile Include="Assets\Scripts\LinkGame\StartWindow.cs" />
-    <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Scripts\Utility\EventCmd.cs" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\Demo_ProgressBar.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\OnOffButton.xml" />
