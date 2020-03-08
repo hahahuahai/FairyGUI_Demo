@@ -7,7 +7,9 @@ using System;
 
 namespace FairyGuiDemo
 {
-
+    /// <summary>
+    /// FGUI包管理
+    /// </summary>
     public class PackageManager
     {
         #region 单例
@@ -78,6 +80,7 @@ namespace FairyGuiDemo
                 UIPackage.AddPackage(UiPackagePath + name);
             }
         }
+        
 
     }
 

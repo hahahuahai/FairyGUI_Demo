@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600">
+  <displayList>
+    <component id="n0_rhsr" name="frame" src="p3yk1" fileName="WindowFrame.xml" xy="95,131">
+      <Label title="连连看"/>
+    </component>
+    <component id="n1_rhsr" name="start_btn" src="rhsrd" fileName="Button10.xml" xy="319,266">
+      <Button title="开始游戏"/>
+    </component>
+    <component id="n2_rhsr" name="quit_btn" src="rhsrd" fileName="Button10.xml" xy="319,383">
+      <Button title="退出"/>
+    </component>
+  </displayList>
+</component>

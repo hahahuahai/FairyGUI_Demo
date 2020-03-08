@@ -13,10 +13,10 @@ namespace FairyGuiDemo
         void Start()
         {
             PackageManager.inst.AddAllPackages();
-
-            linkWindow = new LinkWindow();
-
-            linkWindow.Show();
+            EventManager.inst.Init();
+            WindowManager.inst.AddAllWindow();
+            var startwindow = WindowManager.inst.GetWindowByName("StartWindow");
+            startwindow.Show();
         }
 
         // Update is called once per frame

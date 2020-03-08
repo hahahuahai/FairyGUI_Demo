@@ -224,6 +224,8 @@
     <component id="srct87" name="Slider2.xml" path="/components/"/>
     <movieclip id="iwqq89" name="gz.jta" path="/images/"/>
     <image id="ty2k8a" name="radial.png" path="/images/" scale=""/>
+    <image id="rhsr8b" name="btn_Graph.png" path="/"/>
+    <image id="rhsr8c" name="btn_MovieClip.png" path="/"/>
   </resources>
   <publish name="Basics">
     <atlas name="Default" index="0"/>

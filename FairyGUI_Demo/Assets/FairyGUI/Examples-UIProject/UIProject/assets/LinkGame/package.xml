@@ -13,6 +13,10 @@
     <image id="p3yk9" name="7.png" path="/images/" scale="9grid" scale9grid="83,1,166,2"/>
     <image id="p3yka" name="8.png" path="/images/" scale="9grid" scale9grid="31,26,62,52"/>
     <component id="p3ykb" name="dot.xml" path="/"/>
+    <component id="rhsrc" name="StartWin.xml" path="/" exported="true"/>
+    <component id="rhsrd" name="Button10.xml" path="/"/>
+    <image id="rhsre" name="b4.png" path="/images/" scale="9grid" scale9grid="40,17,80,34"/>
+    <image id="rhsrf" name="b5.png" path="/images/" scale="9grid" scale9grid="40,17,80,34"/>
   </resources>
   <publish name="LinkGame" path="E:\_data\selfprogram\FairyGUI_Demo\FairyGUI_Demo\Assets\Resources\UI" packageCount="2" codePath="E:\_data\selfprogram\FairyGUI_Demo"/>
 </packageDescription>
