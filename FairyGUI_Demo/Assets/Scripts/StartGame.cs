@@ -3,23 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using FairyGUI;
 
-public class StartGame : MonoBehaviour
+namespace FairyGuiDemo
 {
-    Window linkWindow;
-    // Start is called before the first frame update
-    void Start()
+
+    public class StartGame : MonoBehaviour
     {
+        Window linkWindow;
+        // Start is called before the first frame update
+        void Start()
+        {
+            PackageManager.inst.AddAllPackages();
 
-        UIPackage.AddPackage("UI/LinkGame");
+            linkWindow = new LinkWindow();
 
-        linkWindow = new LinkWindow();
+            linkWindow.Show();
+        }
 
-        linkWindow.Show();
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

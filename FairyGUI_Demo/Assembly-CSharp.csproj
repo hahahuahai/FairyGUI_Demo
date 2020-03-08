@@ -267,6 +267,7 @@
     <Compile Include="Assets\FairyGUI\Scripts\Utils\ZipReader.cs" />
     <Compile Include="Assets\Scripts\LinkGame\LinkWindow.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
+    <Compile Include="Assets\Scripts\Utility\PackageManager.cs" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\Demo_ProgressBar.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\OnOffButton.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\scrollbars\ScrollBar_VT.xml" />
