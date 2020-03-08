@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="o3v512va">
+  <resources>
+    <component id="p3yk0" name="LinkWin.xml" path="/" exported="true"/>
+    <component id="p3yk1" name="WindowFrame.xml" path="/"/>
+    <image id="p3yk2" name="5.png" path="/images/" scale="9grid" scale9grid="88,78,441,243"/>
+    <component id="p3yk3" name="CloseButton.xml" path="/"/>
+    <image id="p3yk4" name="0.png" path="/images/"/>
+    <image id="p3yk5" name="4.png" path="/images/"/>
+    <component id="p3yk6" name="BagGridSub.xml" path="/"/>
+    <image id="p3yk7" name="1.png" path="/images/"/>
+    <image id="p3yk8" name="3.png" path="/images/"/>
+    <image id="p3yk9" name="7.png" path="/images/" scale="9grid" scale9grid="83,1,166,2"/>
+    <image id="p3yka" name="8.png" path="/images/" scale="9grid" scale9grid="31,26,62,52"/>
+    <component id="p3ykb" name="dot.xml" path="/"/>
+  </resources>
+  <publish name="LinkGame" path="E:\_data\selfprogram\FairyGUI_Demo\FairyGUI_Demo\Assets\Resources\UI" packageCount="2" codePath="E:\_data\selfprogram\FairyGUI_Demo"/>
+</packageDescription>

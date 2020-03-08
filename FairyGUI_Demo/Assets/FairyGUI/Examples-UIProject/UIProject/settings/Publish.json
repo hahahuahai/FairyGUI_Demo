@@ -1,0 +1,23 @@
+{
+	"atlasSetting":{
+		"allowRotation":true,
+		"paging":true,
+		"sizeOption":"pot",
+		"trimImage":true
+	},
+	"binaryFormat":true,
+	"codeGeneration":{
+		"allowGenCode":false,
+		"classNamePrefix":"",
+		"codePath":"E:\\_data\\selfprogram\\FairyGUI_Demo",
+		"codeType":"",
+		"getMemberByName":false,
+		"ignoreNoname":true,
+		"memberNamePrefix":"",
+		"packageName":""
+	},
+	"compressDesc":true,
+	"includeHighResolution":1,
+	"packageCount":2,
+	"path":"E:\\_data\\selfprogram\\FairyGUI_Demo\\FairyGUI_Demo\\Assets\\Resources\\UI"
+}
