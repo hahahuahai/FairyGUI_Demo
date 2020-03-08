@@ -33,16 +33,20 @@ namespace FairyGuiDemo
         {
             //添加全局监听事件
             GRoot.inst.AddEventListener(EventCmd.OpenLinkWindow, OnOpenLinkWindow);
-            
+            GRoot.inst.AddEventListener(EventCmd.FinishGame, OnFinishGame);
         }
 
         void OnOpenLinkWindow()
         {
-            Debug.Log("111111");
             var startwindow = WindowManager.inst.GetWindowByName("StartWindow");
             startwindow.Hide();
             var linkwindow = WindowManager.inst.GetWindowByName("LinkWindow");
             linkwindow.Show();
+        }
+        void OnFinishGame()
+        {
+            var finishwindow = WindowManager.inst.GetWindowByName("FinishWindow");
+            finishwindow.Show();
         }
     }
 

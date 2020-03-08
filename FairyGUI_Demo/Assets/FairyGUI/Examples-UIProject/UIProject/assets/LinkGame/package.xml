@@ -17,6 +17,7 @@
     <component id="rhsrd" name="Button10.xml" path="/"/>
     <image id="rhsre" name="b4.png" path="/images/" scale="9grid" scale9grid="40,17,80,34"/>
     <image id="rhsrf" name="b5.png" path="/images/" scale="9grid" scale9grid="40,17,80,34"/>
+    <component id="rhsrg" name="FinishWin.xml" path="/" exported="true"/>
   </resources>
   <publish name="LinkGame" path="E:\_data\selfprogram\FairyGUI_Demo\FairyGUI_Demo\Assets\Resources\UI" packageCount="2" codePath="E:\_data\selfprogram\FairyGUI_Demo"/>
 </packageDescription>

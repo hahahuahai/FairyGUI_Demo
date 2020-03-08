@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600">
+  <displayList>
+    <component id="n0_rhsr" name="frame" src="p3yk1" fileName="WindowFrame.xml" xy="95,131">
+      <Label title="提示框"/>
+    </component>
+    <component id="n2_rhsr" name="quit_btn" src="rhsrd" fileName="Button10.xml" xy="319,383">
+      <Button title="退出"/>
+    </component>
+    <text id="n3_rhsr" name="n3" xy="237,238" size="322,50" font="微软雅黑" fontSize="35" color="#cc0033" bold="true" text="恭喜你！全部消除！"/>
+  </displayList>
+</component>

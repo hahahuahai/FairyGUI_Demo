@@ -35,7 +35,7 @@ namespace FairyGuiDemo
 
         void OnQuitBtnClicked(EventContext eventContext)
         {
-
+            Application.Quit();
         }
     }
 

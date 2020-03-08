@@ -41,6 +41,7 @@ namespace FairyGuiDemo
         {
             inst.AddWindow("StartWindow", new StartWindow());
             inst.AddWindow("LinkWindow", new LinkWindow());
+            inst.AddWindow("FinishWindow", new FinishWindow());
         }
 
         void AddWindow(string windowname, Window windowClass)

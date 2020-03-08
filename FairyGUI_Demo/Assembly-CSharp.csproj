@@ -268,6 +268,7 @@
     <Compile Include="Assets\Scripts\Core\EventManager.cs" />
     <Compile Include="Assets\Scripts\Core\PackageManager.cs" />
     <Compile Include="Assets\Scripts\Core\WindowManager.cs" />
+    <Compile Include="Assets\Scripts\LinkGame\FinishWindow.cs" />
     <Compile Include="Assets\Scripts\LinkGame\LinkWindow.cs" />
     <Compile Include="Assets\Scripts\LinkGame\StartWindow.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
@@ -276,12 +277,16 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\OnOffButton.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\scrollbars\ScrollBar_VT.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\HeadBar\package.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\Button_icon.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\CutScene\Main.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Perspective\button1.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\Button.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\WindowB.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Model\Main.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\Button_icon_text.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Perspective\mailItem.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Perspective\Panel2.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\ScrollBarV.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TreeView\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TurnPage\Button1.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Bag\WindowFrame.xml" />
@@ -310,6 +315,8 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\VirtualList\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\CutScene\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Component11.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\LinkGame\FinishWin.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\components\ScrollBar_grip.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\PullToRefresh\Main.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TurnCard\CardComponent.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\Demo_MovieClip.xml" />
@@ -319,6 +326,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\LoopList\package.xml" />
     <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-Text.shader" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\ModalWaiting\Button1.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\ScrollBarH.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\LinkGame\dot.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\Demo_Relation.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Button1.xml" />
@@ -329,6 +337,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\HitTest\button4.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\WindowFrame.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Emoji\Button2.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\InputTextArea.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Emoji\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Component3.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TurnPage\Main.xml" />
@@ -351,13 +360,16 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Guide\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Bag\dot.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\BagGridSub.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\components\ScrollBar_arrow.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\scrollbars\ScrollDownButton.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Particles\CoolComponent.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\LinkGame\BagGridSub.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TurnPage\Pages.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Transition\BOSS_SKILL.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\Demo_Clip&amp;Scroll.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\ProgressBar1.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\components\ListItem.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\ModalWaiting\CloseButton.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Filter\Slider2_grip.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\scrollbars\GripButton_HZ.xml" />
@@ -368,6 +380,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\ScrollPane\Box.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Component6.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\ModalWaiting\TestWin.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\Checkbox.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\WindowFrameB.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Slider_HZ.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\ScrollPane\package.xml" />
@@ -382,6 +395,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TurnPage\BackCover.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Component13.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Curve\package.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\SliderV.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Slider1.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\RenderTexture\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\ProgressBar6.xml" />
@@ -423,6 +437,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Component12.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\scrollbars\GripButton_VT.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\EmitNumbers\number2.fnt" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\ComboBox.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Guide\BagButton.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Cooldown\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Slider2_grip.xml" />
@@ -437,6 +452,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\EmitNumbers\Main.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Extension\Main.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\Demo_Slider.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\components\WindowCloseButton.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Curve\item.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TurnCard\Main.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Particles\package.xml" />
@@ -459,8 +475,10 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Component14.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Slider_VT.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\PullToRefresh\Button1.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\components\ComboBox_popup.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Perspective\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Checkbox.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\TabButton.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\Demo_Text.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TurnPage\Button3.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Perspective\Main.xml" />
@@ -479,6 +497,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TreeView\TreeExpandButton.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Transition\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\RadioButton.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\SliderH.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BundleUsage\package.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BundleUsage\Main.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\Demo_Image.xml" />
@@ -487,6 +506,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\CutScene\Button1.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\RenderTexture\WindowFrame.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Button5.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\RadioButton.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\ModalWaiting\WindowFrame.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\Demo_Window.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Bag\BagWin.xml" />
@@ -497,6 +517,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Button15.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\VirtualList\Button1.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Bag\Main.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\InputTextField.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TurnPage\FrontCover.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Transition\number1.fnt" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\TurnPage\slide\Slider2_grip.xml" />
@@ -518,6 +539,7 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\RenderTexture\TestWin.xml" />
     <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-BMFont.shader" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\ProgressBar4.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\WindowFrame.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Cooldown\Button2.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\components\Component8.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Guide\Button1.xml" />
@@ -527,6 +549,8 @@
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Bag\BagGridSub.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Transition\Button1.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Basics\popupmenu\PopupMenuItem.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\ProgressBar.xml" />
+    <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\BlueSkin\Demo.xml" />
     <None Include="Assets\FairyGUI\Examples-UIProject\UIProject\assets\Cooldown\Main.xml" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/_data/selfprogram/FairyGUI_Demo/FairyGUI_Demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
